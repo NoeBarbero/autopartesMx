@@ -1,0 +1,230 @@
+/*selector {
+    propiedad:valor;
+}*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+#header{
+    background-color: black;
+    font-size: 4em;
+    padding: 1em;
+    margin: 1em auto;
+    display: grid;
+    grid-template-areas: /* columnas */
+        "logo menu redes";
+    grid-template-columns: 2fr auto 0.75fr;
+    gap: 1em; /* espacio entre celdas */
+    /* falta dejarlo fijo siempre arriba */   
+}
+#header .header__logo{
+    grid-area: logo;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 0.5em;
+}
+
+#header .header__logo h1 a{
+    border: outset 0.5em;
+    border-radius: 2em;
+    color: #eeee14;
+    padding: 0.5em;
+    text-decoration: none;
+}
+#header .header__menu{
+    grid-area: menu;
+}
+#header .header__menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 0.5em;
+}
+
+#header .header__menu ul li a{
+    border: solid 2px yellow;
+    color: yellow;
+    text-decoration: none;
+    padding: 0.5em;
+    margin: 2px;
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    border-radius: 2em;
+    /* ponerlo en linea y centrado. ponerle margenes internos */
+}
+#header .header__redes{
+    display: inline-block;
+    grid-area: redes;
+    position: fixed;
+    right: 1em;
+}
+#header .header__redes a img{
+    width: 2em;
+    padding: 5px;
+}
+
+#section{
+    background-color: black;
+    color: white; 
+}
+#section .section__img{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+#section .section__img img{
+    width: 100%;
+}
+
+#section .section__article{
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#section .section__article p{
+    margin: 10px 5px 10px 5px;
+    padding: 5px;
+    /* centrar a la derecha del h2 */
+}
+
+#section .section__input{
+    border: solid 2px;
+    color: yellow;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#extra {
+    margin: 0 auto;
+    padding: 20px;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+#extra .extra__video iframe{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+
+}
+
+#productos{
+    display: grid;
+    grid-template-areas: 
+    "imagen respuesta"
+    "imagen2 respuesta2"
+    "imagen3 respuesta3";
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+}
+
+#productos .productos__imagen1{
+    grid-area: imagen;
+}
+#productos .productos__respuesta1{
+    grid-area: respuesta;
+}
+
+#productos .productos__imagen2{
+    grid-area: imagen2;
+}
+#productos .productos__respuesta2{
+    grid-area: respuesta2;
+}
+
+#productos .productos__imagen3{
+    grid-area: imagen3;
+}
+#productos .productos__respuesta3{
+    grid-area: respuesta3;
+}
+
+#productos img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#productos .productos__item img{
+    height: 200px;
+    width: 200px;
+}
+
+#formulario form{
+    border: solid 2px ;
+    display: inline-block;
+}
+
+#footer{
+    background-color: yellow;
+    color: whitesmoke;
+    display: grid;
+}
+#footer .footer__ubicacion{
+    padding: 0 auto;
+    display: grid;
+    grid-template-areas: /* columnas */
+        "domicilio mapa";
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; /* espacio entre celdas */ 
+    align-items: center;  
+    height: 50vh;
+}   
+
+#footer .footer__domicilio{
+    color: black;
+    grid-area: domicilio;
+}
+#footer .footer__domicilio p{
+    text-align: center;
+}
+#footer .footer__mapa{
+    grid-area: mapa;
+}
+
+#footer .footer__mapa iframe{
+    display: inline-block; /* seguir probando */
+}
+
+#footer .footer__copy{
+    background-color: black;
+    color: whitesmoke;
+    padding: 1em;
+    display: grid;
+    grid-template-areas: /* columnas */
+        "copy redes";
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; /* espacio entre celdas */ 
+}
+#footer .footer__copy--derechos{
+    grid-area: copy;
+}/* 
+#footer .footer__copy--derechos p{
+    font-size: 1em;
+} */
+#footer .footer__redes{
+    grid-area: redes;
+}
+
+#footer .footer__redes img{
+    width: 2em;
+    padding: 5px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logoMXsolo_fondo_gris.jpg">
+    <title>Contacto - AutopartesMX</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Encabezado con logo, redes y menú de navegación -->
+    <header id="header"> 
+        <div class="header__logo"> 
+            <h1><a href="./index.html">AUTOPARTES MX</a></h1>
+        </div>
+        <div class="header__redes"> 
+            <a href="https://www.instagram.com/autopartesmx.rafaela/" title="Ir al perfil de Instagram" target="_blank" rel="nofollow"><i><img src="./img/instagram.png" alt="Logo Instagram"></i></a>
+            <a href="https://wa.me/5493492647286" title="Contactarme por Whatsapp" target="_blank" rel="nofollow"><i><img src="./img/whatsapp.png" alt="Logo Whatsapp"></i></a>
+        </div>
+        <nav class="header__menu">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./productos.html">Productos y servicios</a></li>                
+                <li><a href="./preguntas.html">Preguntas frecuentes</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>            
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formulario de contacto -->
+    <section id="formulario">
+        <div class="formulario__intro">
+           <h2>¿Tenés dudas o sugerencias?</h2>
+           <h3>¡Completá el formulario y te contestaremos por mail dentro de las próximas 24hs!</h3>
+        </div>
+   
+        <div class="formulario__input">
+            <form action="enviar.php" method="get">
+                <div>
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" id="nombre" placeholder="Ingresá tu nombre y apellido">
+                </div> 
+                <br>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="mail" id="email" placeholder="Ingresá tu e-mail">
+                </div>
+                <br>
+                <div>
+                    <label for="telefono">N° de celular:</label>
+                    <input type="tel" id="telefono" placeholder="Ej: 3492-607070">
+                </div> 
+                <br>
+                <div>
+                    <select name="cond-IVA" id="cond-IVA">
+                        <option value="00">Elegí tu condición IVA</option>
+                        <option value="01">Monotributista</option>
+                        <option value="02">Responsable Inscripto</option>
+                        <option value="03">Exento</option>
+                        <option value="04">Consumidor Final</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="caja">Tu consulta o sugerencia:</label>
+                    <textarea name="caja" id="caja" cols="30" rows="5" placeholder="Ingresá aquí tu consulta o sugerencia"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar todo">
+                </div>
+
+            </form>
+        </div>
+
+        <div class="section__article">
+            <h2>Sino, <a href="https://wa.me/5493492647286" title="Contactarme por Whatsapp" target="_blank" rel="nofollow">hacé click acá</a> para escribirnos por Whatsapp</h2>
+            <p>Te responderemos dentro de nuestros horarios de atención!☺</p>
+        </div>
+    </section>
+    
+     <!-- Fin de página con google maps, copy y redes-->
+    
+     <footer id="footer">
+        <section class="footer__ubicacion">    
+            <div class="footer__domicilio">
+                <p>Encontranos en Bv. Lehmann 3041, Rafaela (Santa Fe)</p>
+            </div>
+            <div class="footer__mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.7867420760035!2d-61.48803818516418!3d-31.226637194223233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95caae73eca92aa5%3A0x7043cfdf11d5faca!2sBlvd.%20G.%20Lehmann%203041%2C%20Rafaela%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1653419581816!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    
+        <section class="footer__copy">
+            <div class="footer__copy--derechos">
+                <p>&copy; 2022 - Autopartes Mx Rafaela Creación y diseño por M. Noel Barbero</p> 
+                <p> Domicilio: Bv. Lehmann 3041, CP2300 Rafaela (Sta. Fe) Argentina Mail mxautopartesrafaela@gmail.com Contacto 03492 15647286 Instagram Autopartesmx.rafaela</p>
+            </div>
+            <div class="footer__redes"> 
+                <p>Seguinos en Instagram</p> 
+                <a href="https://www.instagram.com/autopartesmx.rafaela/" title="Ir al perfil de Instagram" target="_blank" rel="nofollow"><i><img src="./img/instagram.png" alt="Logo Instagram"></i></a>
+                <p>Escribinos por Whatsapp</p>
+                <a href="https://wa.me/5493492647286" title="Contactarme por Whatsapp" target="_blank" rel="nofollow"><i><img src="./img/whatsapp.png" alt="Logo Whatsapp"></i></a>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
