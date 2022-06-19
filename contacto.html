@@ -37,24 +37,24 @@
            <h3>¡Completá el formulario y te contestaremos por mail dentro de las próximas 24hs!</h3>
         </div>
    
-        <div class="formulario__input">
+        <div class="formulario">
             <form action="enviar.php" method="get">
-                <div>
+                <div class="formulario__input">
                     <label for="nombre">Nombre y Apellido:</label>
                     <input type="text" id="nombre" placeholder="Ingresá tu nombre y apellido">
                 </div> 
                 <br>
-                <div>
+                <div class="formulario__input">
                     <label for="email">E-mail:</label>
                     <input type="mail" id="email" placeholder="Ingresá tu e-mail">
                 </div>
                 <br>
-                <div>
+                <div class="formulario__input">
                     <label for="telefono">N° de celular:</label>
                     <input type="tel" id="telefono" placeholder="Ej: 3492-607070">
                 </div> 
                 <br>
-                <div>
+                <div class="formulario__input--select">
                     <select name="cond-IVA" id="cond-IVA">
                         <option value="00">Elegí tu condición IVA</option>
                         <option value="01">Monotributista</option>
@@ -64,12 +64,12 @@
                     </select>
                 </div>
                 <br>
-                <div>
+                <div class="formulario__input">
                     <label for="caja">Tu consulta o sugerencia:</label>
                     <textarea name="caja" id="caja" cols="30" rows="5" placeholder="Ingresá aquí tu consulta o sugerencia"></textarea>
                 </div>
                 <br>
-                <div>
+                <div class="formulario__input">
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Borrar todo">
                 </div>
