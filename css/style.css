@@ -12,10 +12,10 @@ body{
     color: whitesmoke;
 }
 h2{
-    font-size: 1.5em;
+    font-size: 1em;
 }
 h3{
-    font-size: 1em;
+    font-size: 0.90em;
 }
 p{
     font-size: 0.75em;
@@ -24,72 +24,8 @@ a{
     text-decoration: none;
 }
 
-#header{
-    background-color: black;
-    font-size: 1em;
-    padding: 1em;
-    margin: 1em auto;
-    display: grid;
-    grid-template-areas: /* columnas */
-        "logo menu redes";
-    grid-template-columns: 2fr auto 0.75fr;
-    gap: 1em; /* espacio entre celdas */
-    /* falta dejarlo fijo siempre arriba */   
-}
-#header .header__logo{
-    grid-area: logo;
-    margin: 0 auto;
-    align-items: center;
-    font-size: 0.5em;
-}
-
-#header .header__logo h1 a{
-    border: outset 0.5em;
-    border-radius: 1em;
-    color: #eeee14;
-    padding: 0.5em;
-    text-decoration: none;
-}
-#header .header__logo h1 a:hover{
-    border:dashed 0.3em;
-}
-
-#header .header__menu{
-    grid-area: menu;
-}
-#header .header__menu ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
-    gap: 0.5em;
-}
-
-#header .header__menu ul li a{
-    border: solid 2px yellow;
-    color: yellow;
-    text-decoration: none;
-    padding: 0.5em;
-    margin: 2px;
-    display: inline-block;
-    justify-content: center;
-    align-content: center;
-    border-radius: 2em;
-    /* ponerlo en linea y centrado. ponerle margenes internos */
-}
-#header .header__menu ul li a:hover{
-    border: double 3px orange;
-}
-
-#header .header__redes{
-    display: inline-block;
-    grid-area: redes;
-    position: fixed;
-    right: 1em;
-}
-#header .header__redes a img{
-    width: 3em;
-    padding: 5px;
+.navbar-toggler-icon span{
+    background-color: yellow;
 }
 
 #section{
@@ -121,7 +57,6 @@ a{
 #section .section__article p{
     margin: 10px 5px 10px 5px;
     padding: 5px;
-    /* centrar a la derecha del h2 */
 }
 
 #section .section__input{

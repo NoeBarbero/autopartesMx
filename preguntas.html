@@ -7,30 +7,43 @@
     <link rel="shortcut icon" href="./img/logoMXsolo_fondo_gris.jpg">
     <title>Preguntas Fecuentes - AutopartesMX</title>
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- Encabezado con logo, redes y menú de navegación -->
-    <header id="header"> 
-        <div class="header__logo"> 
-            <h1><a href="./index.html">AUTOPARTES MX</a></h1>
-        </div>
-        <div class="header__redes"> 
-            <a href="https://www.instagram.com/autopartesmx.rafaela/" title="Ir al perfil de Instagram" target="_blank" rel="nofollow"><i><img src="./img/instagram.png" alt="Logo Instagram"></i></a>
-            <a href="https://wa.me/5493492647286" title="Contactarme por Whatsapp" target="_blank" rel="nofollow"><i><img src="./img/whatsapp.png" alt="Logo Whatsapp"></i></a>
-        </div>
-        <nav class="header__menu">
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./productos.html">Productos y servicios</a></li>                
-                <li><a href="./preguntas.html">Preguntas frecuentes</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>            
-            </ul>
-        </nav>
-    </header>
+    <!-- Encabezado con logo y menú de navegación -->
+    <!-- boostrap -->
+    <nav class="navbar navbar-expand-lg bg-dark p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-warning" href="./index.html">AUTOPARTES MX</a><button class="navbar-toggler"
+                type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0  gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active text-warning" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" aria-current="page" href="./productos.html">Productos y
+                            servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="./preguntas.html">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
 
-    
     <section id="section">
         <div class="section__article">
             <h2>¿Cuál es el horario de atención?</h2>
@@ -87,6 +100,12 @@
             </div>
         </section>
     </footer>
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>    
+
 </body>
 
 </html>
