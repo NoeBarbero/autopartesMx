@@ -18,6 +18,25 @@ a{
 .slide img{
     height: 65vh;
 }
+.card img{
+    height: 200px;
+}
+.card:hover{
+    background-color: yellow;
+}
+h5.col.color-dark{
+    margin-top: 3em;
+}
+h2.text-size-propio{
+    font-size: 3em;
+}
+h3.text-size-propio{
+    font-size: 1.75em;
+}
+h3.text-size-propio:hover{
+    font-size: 2em;
+
+}
 
 #section{
     background-color: black;
@@ -44,6 +63,10 @@ a{
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+}
+.section__article:hover{
+    background-color: yellow;
+    color: black;
 }
 
 #section .section__article p{
