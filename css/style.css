@@ -8,11 +8,15 @@
     font-family: sans-serif;
 }
 
-body{
-    height: 100%
-}
 a{
     text-decoration: none;
+}
+
+.slide{
+    margin-top: 0;
+}
+.slide img{
+    height: 65vh;
 }
 
 #section{
