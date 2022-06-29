@@ -13,12 +13,12 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bg-warning">
     <!-- Encabezado con logo y menú de navegación -->
     <!-- boostrap -->
     <nav class="navbar navbar-expand-lg bg-dark p-3">
         <div class="container-fluid">
-            <a class="navbar-brand text-warning" href="./index.html">AUTOPARTES MX</a><button class="navbar-toggler"
+            <a class="navbar-brand w-30" href="./index.html"><img class="w-25" src="./img/logo_mxautopartes.jpg" alt="logo MX"></a><button class="navbar-toggler"
                 type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
                     class="navbar-toggler-icon"></span>
@@ -26,20 +26,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0  gap-3">
                     <li class="nav-item">
-                        <a class="nav-link active text-warning" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link active text-warning link-light" aria-current="page" href="./index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-warning" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link text-warning link-light" href="./nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-warning" aria-current="page" href="./productos.html">Productos y
+                        <a class="nav-link text-warning link-light" aria-current="page" href="./productos.html">Productos y
                             servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-warning" href="./preguntas.html">Preguntas Frecuentes</a>
+                        <a class="nav-link text-warning link-light" href="./preguntas.html">Preguntas Frecuentes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-warning" href="./contacto.html">Contacto</a>
+                        <a class="nav-link text-warning link-light" href="./contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -66,18 +66,6 @@
     <!-- Fin de página con google maps, copy y redes-->
 
     <footer id="footer">
-        <section class="footer__ubicacion">
-            <div class="footer__domicilio">
-                <p>Encontranos en Bv. Lehmann 3041, Rafaela (Santa Fe)</p>
-            </div>
-            <div class="footer__mapa">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.7867420760035!2d-61.48803818516418!3d-31.226637194223233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95caae73eca92aa5%3A0x7043cfdf11d5faca!2sBlvd.%20G.%20Lehmann%203041%2C%20Rafaela%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1653419581816!5m2!1ses-419!2sar"
-                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
-
         <section class="footer__copy">
             <div class="footer__copy--derechos">
                 <p>&copy; 2022 - Autopartes Mx Rafaela Creación y diseño por M. Noel Barbero</p>
@@ -85,12 +73,16 @@
                     Contacto 03492 15647286 Instagram Autopartesmx.rafaela</p>
             </div>
             <div class="footer__redes">
-                <p>Seguinos en Instagram</p>
-                <a href="https://www.instagram.com/autopartesmx.rafaela/" title="Ir al perfil de Instagram"
+                <div>
+                    <a href="https://www.instagram.com/autopartesmx.rafaela/" title="Ir al perfil de Instagram"
                     target="_blank" rel="nofollow"><i><img src="./img/instagram.png" alt="Logo Instagram"></i></a>
-                <p>Escribinos por Whatsapp</p>
-                <a href="https://wa.me/5493492647286" title="Contactarme por Whatsapp" target="_blank"
-                    rel="nofollow"><i><img src="./img/whatsapp.png" alt="Logo Whatsapp"></i></a>
+                    <p>Seguinos en Instagram</p>
+                </div>
+                <div>
+                    <a href="https://wa.me/5493492647286" title="Contactarme por Whatsapp" target="_blank"
+                rel="nofollow"><i><img src="./img/whatsapp.png" alt="Logo Whatsapp"></i></a>
+                    <p>Escribinos por Whatsapp</p>
+                </div>
             </div>
         </section>
     </footer>

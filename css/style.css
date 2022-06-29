@@ -7,25 +7,9 @@
     padding: 0;
     font-family: sans-serif;
 }
-body{
-    background-color: black;
-    color: whitesmoke;
-}
-h2{
-    font-size: 1em;
-}
-h3{
-    font-size: 0.90em;
-}
-p{
-    font-size: 0.75em;
-}
+
 a{
     text-decoration: none;
-}
-
-.navbar-toggler-icon span{
-    background-color: yellow;
 }
 
 #section{
@@ -38,9 +22,10 @@ a{
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    justify-content: center;
 }
 #section .section__img img{
-    width: 100%;
+    width: 50%;
 }
 
 #section .section__article{
@@ -128,59 +113,6 @@ a{
     width: 200px;
 }
 
-#formulario .formulario__intro{
-    margin: 5em;
-}
-#formulario .formulario{
-    border: solid 2px ;
-    display: block;
-    margin: 5em;
-}
-#formulario .formulario__input{
-    font-size: 1em;
-}
-#formulario .formulario__input input{
-    width: 50%;
-    height: 2em;
-    font-size: 1em;
-}
-#formulario .formulario__input--select{
-    font-size: 1em;
-}
-
-#footer{
-    background-color: yellow;
-    color: whitesmoke;
-    display: grid;
-}
-#footer .footer__ubicacion{
-    padding: 0 auto;
-    display: grid;
-    grid-template-areas: /* columnas */
-        "domicilio mapa";
-    grid-template-columns: 1fr 1fr;
-    gap: 10px; /* espacio entre celdas */ 
-    align-items: center;  
-    height: 100%;
-}   
-
-#footer .footer__domicilio{
-    color: black;
-    grid-area: domicilio;
-}
-#footer .footer__domicilio p{
-    text-align: center;
-}
-#footer .footer__mapa{
-    grid-area: mapa;
-}
-
-#footer .footer__mapa iframe{
-    display: inline-block;
-    width: 70%;
-    height: 100%; /* seguir probando */
-}
-
 #footer .footer__copy{
     background-color: black;
     color: whitesmoke;
@@ -197,11 +129,13 @@ a{
 
 #footer .footer__redes{
     grid-area: redes;
+    width: 100%;
 }
 
 #footer .footer__redes img{
-    width: 5%;
+    width: 2em;
 }
+
 @media screen and (max-width: 950px){
 h2{
     font-size: 1em;
@@ -210,7 +144,7 @@ h3{
     font-size: 0.75em;
 }
 p{
-    font-size: 0.50em;
+    font-size: 0.75em;
  }
  #header{
     font-size: 0.5em;
