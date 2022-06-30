@@ -42,11 +42,6 @@ a{
     border-radius: 50%;
     border: 2px solid black;
 }
-/* color menú hamburguesa */
-.navbar-toggler-icon{
-    background-color: hwb(60 0% 47%);
-    border-radius: 2px;
-}
 
 h5.col.color-dark{
     margin-top: 3em;
