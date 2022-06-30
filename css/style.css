@@ -185,7 +185,6 @@ h3.text-size-propio:hover{
 #footer .footer__redes{
     grid-area: redes;
     width: 100%;
-    margin-left: 50%;
 }
 
 #footer .footer__redes img{
