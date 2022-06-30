@@ -11,19 +11,43 @@
 a{
     text-decoration: none;
 }
-
+/*altura a imágenes de carrousel para pantallas pequeñas*/
 .slide{
     margin-top: 0;
 }
 .slide img{
     height: 65vh;
 }
+/* tamaño imagen tarjetas Nosotros */
 .card img{
     height: 200px;
 }
 .card:hover{
-    background-color: yellow;
+    background-color: #f8f86e;
 }
+/* Ocultar y desocultar texto tarjetas Nosotros */
+.card-body p{
+    display: none;
+}
+.card-body:hover p{
+    display: block;
+}
+/* color botones carrousel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: solid 3px #ffff00;
+    background-color: yellow;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+/* color menú hamburguesa */
+.navbar-toggler-icon{
+    background-color: hwb(60 0% 47%);
+    border-radius: 2px;
+}
+
 h5.col.color-dark{
     margin-top: 3em;
 }
@@ -35,7 +59,6 @@ h3.text-size-propio{
 }
 h3.text-size-propio:hover{
     font-size: 2em;
-
 }
 
 #section{
@@ -155,11 +178,14 @@ h3.text-size-propio:hover{
 }
 #footer .footer__copy--derechos{
     grid-area: copy;
+    font-size: 0.70em;
+    margin-top: 10%;
 }
 
 #footer .footer__redes{
     grid-area: redes;
     width: 100%;
+    margin-left: 50%;
 }
 
 #footer .footer__redes img{
