@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/logoMXsolo_fondo_gris.jpg">
-    <title>Preguntas Fecuentes - AutopartesMX</title>
+    <title>AutopartesMX | Preguntas Frecuentes</title>
     <link rel="stylesheet" href="./css/style.css">
     <!-- Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
-<body class="bg-warning">
+<body>
     <!-- Encabezado con logo y menú de navegación -->
     <!-- boostrap -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2">
@@ -45,46 +46,89 @@
                 </ul>
             </div>
     </nav>
+
     <!-- Barra introductoria -->
-    <nav class="navbar bg-light">
+    <nav class="navbar bg-warning">
         <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">Preguntas Frecuentes</span>
-       </div>
+            <span class="navbar-brand mb-0 h2">Preguntas Frecuentes</span>
+        </div>
     </nav>
-    
-    <section id="section">
-        <div class="section__article">
-            <h2>¿Cuál es el horario de atención?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque veritatis, ratione ex amet nostrum quas quisquam repudiandae fugiat officia dignissimos?</p>
+
+    <section class="accordion" id="accordionExample">
+        <div class="accordion-item border border-warning border-3">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    ¿Cuál es el horario de atención?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa laboriosam vel impedit dolor
+                        ipsam illo maxime velit eius voluptatem dicta.</p>
+                </div>
+            </div>
         </div>
-        <div class="section__article">
-            <h2>¿Cómo me contacto?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ducimus vero deserunt corrupti libero explicabo impedit optio eos numquam aut!</p>
+        <div class="accordion-item border border-warning border-3">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    ¿Cómo me contacto?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa laboriosam vel impedit dolor ipsam illo maxime velit eius voluptatem dicta.</p>
+                </div>
+            </div>
         </div>
-        <div class="section__article">
-            <h2>¿Cuánto demoran en responderme?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minus dolorum quo quae qui inventore accusamus, quisquam dolor mollitia doloribus.</p>
+        <div class="accordion-item border border-warning border-3">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    ¿Cuál es el tiempo de respuesta?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, omnis?</p>
+                </div>
+            </div>
         </div>
-        <div class="section__article">
-            <h2>¿Cuánto demoran en responderme?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minus dolorum quo quae qui inventore accusamus, quisquam dolor mollitia doloribus.</p>
+        <div class="accordion-item border border-warning border-3">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    ¿En cuánto tiempo despachan mi pedido?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, enim?</p>
+                </div>
+            </div>
         </div>
-        <div class="section__article">
-            <h2>¿En cuánto tiempo despachan mi pedido?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minus dolorum quo quae qui inventore accusamus, quisquam dolor mollitia doloribus.</p>
-        </div>
-        <div class="section__article">
-            <h2>¿En cuánto tiempo despachan mi pedido?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minus dolorum quo quae qui inventore accusamus, quisquam dolor mollitia doloribus.</p>
-        </div>
-        <div class="section__article">
-            <h2>¿Cómo gestiono un cambio?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minus dolorum quo quae qui inventore accusamus, quisquam dolor mollitia doloribus.</p>
+        <div class="accordion-item border border-warning border-3">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        ¿Cómo gestiono un cambio?
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                    data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, possimus.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Fin de página con google maps, copy y redes-->
-    
+        <!-- Fin de página con google maps, copy y redes-->
     <footer id="footer">
         <section class="footer__copy">
             <div class="footer__copy--derechos">
@@ -95,12 +139,12 @@
             <div class="footer__redes">
                 <div>
                     <a href="https://www.instagram.com/autopartesmx.rafaela/" title="Ir al perfil de Instagram"
-                    target="_blank" rel="nofollow"><i><img src="./img/instagram.png" alt="Logo Instagram"></i></a>
+                        target="_blank" rel="nofollow"><i><img src="./img/instagram.png" alt="Logo Instagram"></i></a>
                     <p>Seguinos en Instagram</p>
                 </div>
                 <div>
                     <a href="https://wa.me/5493492647286" title="Contactarme por Whatsapp" target="_blank"
-                rel="nofollow"><i><img src="./img/whatsapp.png" alt="Logo Whatsapp"></i></a>
+                        rel="nofollow"><i><img src="./img/whatsapp.png" alt="Logo Whatsapp"></i></a>
                     <p>Escribinos por Whatsapp</p>
                 </div>
             </div>
@@ -110,7 +154,7 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>    
+        crossorigin="anonymous"></script>
 
 </body>
 
