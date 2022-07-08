@@ -19,14 +19,13 @@ nav a {
 .card img {
   height: 200px;
 }
-.card :hover {
+.card:hover {
   background-color: #f8f86e;
 }
 
 .card-body p {
   display: none;
 }
-
 .card-body:hover p {
   display: block;
 }
@@ -34,7 +33,7 @@ nav a {
 .carousel-control-prev-icon, .carousel-control-next-icon {
   height: 100px;
   width: 100px;
-  outline: solid 3px #ffff00;
+  outline: solid 3px #f8f86e;
   background-color: rgb(0, 0, 0);
   background-size: 100%, 100%;
   border-radius: 50%;
@@ -52,7 +51,6 @@ h2.text-size-propio {
 h3.text-size-propio {
   font-size: 1.75em;
 }
-
 h3.text-size-propio:hover {
   font-size: 2em;
 }
