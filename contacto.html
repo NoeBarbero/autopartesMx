@@ -14,6 +14,13 @@
 </head>
 
 <body>
+    <!-- Barra introductoria -->
+    <header class="navbar bg-warning">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h2">Te invitamos a contactarte con Autopartes MX</span>
+        </div>
+    </header>
+
     <!-- Encabezado con logo y menú de navegación -->
     <!-- boostrap -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2">
@@ -47,57 +54,52 @@
             </div>
     </nav>
 
-    <!-- Barra introductoria -->
-    <nav class="navbar bg-warning">
-        <div class="container-fluid">
-            <span class="navbar-brand mb-0 h2">¡Contactanos!</span>
-        </div>
-    </nav>
-
     <!-- Formulario de contacto con BS-->
     <section class="text-center">
         <h4 class="p-4">¿Tenés dudas o sugerencias?</h2>
         <h5>¡Completá el formulario y te responderemos dentro de nuestros horarios de atención!</h5>
     </section>
     
-    <form class="container-fluid row g-2 ">
-        <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Ingresa tu e-mail">
-        </div>
-        <div class="col-md-6">
+    <form class="container">
+        <div class="row g-2 ">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Ingresa tu e-mail">
+            </div>
+            <div class="col-md-6">
             <!-- ver si es válido el inputCelnumber en for e Id, lo cambié -->
-            <label for="inputCelnumber" class="form-label">N° de celular</label>
-            <input type="tel" class="form-control" id="inputCelnumber" placeholder="Ej: 3492-607070">
-        </div>
-        <div class="col-12">
-            <!-- ver si es válido el inputName en for e id, lo cambié -->
-            <label for="inputName" class="form-label">Nombre y Apellido</label>
-            <input type="text" class="form-control" id="inputName" placeholder="Ingresa tu nombre y apellido">
-        </div>
-        <div class="col-md-6">
-            <label for="inputCity" class="form-label">Localidad</label>
-            <input type="text" class="form-control" id="inputCity" placeholder="Ingresa tu localidad">
-        </div>
-        <div class="col-md-6">
-            <label for="inputState" class="form-label">Condición IVA</label>
-            <select id="inputState" class="form-select">
-                <option selected>Elige una opción</option>
-                <option value="01">Monotributista</option>
-                <option value="02">Responsable Inscripto</option>
-                <option value="03">Exento</option>
-                <option value="04">Consumidor Final</option>
-            </select>
-        </div>
-        <div class="col-12">
-            <label for="Textarea">Tu consulta o sugerencia</label>
-            <textarea class="form-control" placeholder="Ingresa aquí tu consulta o sugerencia"
+                <label for="inputCelnumber" class="form-label">N° de celular</label>
+                <input type="tel" class="form-control" id="inputCelnumber" placeholder="Ej: 3492-607070">
+            </div>
+            <div class="col-12">
+                <!-- ver si es válido el inputName en for e id, lo cambié -->
+                <label for="inputName" class="form-label">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Ingresa tu nombre y apellido">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Localidad</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="Ingresa tu localidad">
+            </div>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label">Condición IVA</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Elige una opción</option>
+                    <option value="01">Monotributista</option>
+                    <option value="02">Responsable Inscripto</option>
+                    <option value="03">Exento</option>
+                    <option value="04">Consumidor Final</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <label for="Textarea">Tu consulta o sugerencia</label>
+                <textarea class="form-control" placeholder="Ingresa aquí tu consulta o sugerencia"
                     id="floatingTextarea"></textarea>
-        </div>
-        <div class="col-12 m-3">
+            </div>
+            <div class="col-12 m-3">
             <!-- ver si falta agregar input, se cambió por button al agregar BS -->
-            <button type="submit" class="btn btn-outline-warning">Enviar</button>
-            <button type="reset" class="btn btn-outline-warning">Borrar todo</button>
+                <button type="submit" class="btn btn-outline-warning">Enviar</button>
+                <button type="reset" class="btn btn-outline-warning">Borrar todo</button>
+            </div>
         </div>
     </form>
 
@@ -109,7 +111,7 @@
     </section> -->
 
     <!-- Fin de página con google maps, copy y redes-->
-    <div class="container-fluid bg-light p-2">
+    <div class="container-fluid bg-light">
         <div class="row">
             <h5 class="col color-dark">Encontranos en Bv. Lehmann 3041, Rafaela (Santa Fe)</h5>
             <div class="col"><iframe
@@ -118,6 +120,15 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         </div>
     </div>
+
+    <!-- mapeo de la web -->
+    <nav class="nav nav-pills flex-column flex-sm-row bg-warning p-3">
+        <a class="flex-sm-fill text-sm-center nav-link text-dark" aria-current="page" href="./index.html">Home</a>
+        <a class="flex-sm-fill text-sm-center nav-link text-dark" href="./nosotros.html">Nosotros</a>
+        <a class="flex-sm-fill text-sm-center nav-link text-dark" href="./productos.html">Productos y Servicios</a>
+        <a class="flex-sm-fill text-sm-center nav-link text-dark" href="./preguntas.html">Preguntas Frecuentes</a>
+        <a class="flex-sm-fill text-sm-center nav-link active text-dark" href="./contacto.html">Contacto</a>
+    </nav>
 
     <footer id="footer">
         <section class="footer__copy">
