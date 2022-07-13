@@ -7,6 +7,7 @@
 
 nav a {
   text-decoration: none;
+  font-size: 0.5em;
 }
 
 .slide {
@@ -118,19 +119,15 @@ form div {
   h2 {
     font-size: 1em;
   }
-
   h3 {
     font-size: 0.75em;
   }
-
   p {
     font-size: 0.75em;
   }
-
   #header {
     font-size: 0.5em;
   }
-
   #section {
     flex-direction: column;
   }
