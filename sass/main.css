@@ -41,8 +41,8 @@ nav a {
   outline: solid 3px #f8f86e;
   background: black;
   background-size: 100%, 100%;
-  border-radius: 50%;
   border: 2px solid black;
+  border-radius: 50%;
 }
 
 h5.col.color-dark {

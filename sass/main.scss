@@ -11,9 +11,9 @@ $colores: (
     terciario:black
 );
 
-@mixin boton {
-    border-radius: 50%;
-    border: 2px solid map-get($colores , terciario);
+@mixin boton ($borde, $radio){
+    border: $borde;
+    border-radius: $radio;
 }
 
 .colorTexto-propio{
@@ -60,7 +60,7 @@ nav{
     outline: solid 3px map-get($colores , secundario);
     background: map-get($colores , terciario);
     background-size: 100%, 100%;
-    @include boton;
+    @include boton (2px solid map-get($colores , terciario), 50%);
 }
 
 h5.col.color-dark{
