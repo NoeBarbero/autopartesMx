@@ -5,9 +5,14 @@
   font-family: sans-serif;
 }
 
+/* mapa */
+.colorTexto-propio, #footer .footer__copy {
+  color: #ffff00;
+  background-color: black;
+}
+
 nav a {
   text-decoration: none;
-  font-size: 0.5em;
 }
 
 .slide {
@@ -35,7 +40,7 @@ nav a {
   height: 100px;
   width: 100px;
   outline: solid 3px #f8f86e;
-  background-color: rgb(0, 0, 0);
+  background: black;
   background-size: 100%, 100%;
   border-radius: 50%;
   border: 2px solid black;
@@ -94,8 +99,6 @@ form div {
 }
 
 #footer .footer__copy {
-  background-color: black;
-  color: whitesmoke;
   padding: 1em;
   display: grid;
   grid-template-areas: "copy redes";
