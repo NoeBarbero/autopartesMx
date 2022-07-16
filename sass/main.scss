@@ -36,7 +36,7 @@ nav{
 
 .card{
     img{
-        height: 200px;
+        height: 300px;
     }
     &:hover{
         background-color: map-get($colores , secundario);
@@ -134,7 +134,7 @@ form{
     }
     .footer__copy--derechos{
         grid-area: copy;
-        font-size: 0.70em;
+        font-size: 0.80em;
         margin-top: 10%;
     }
     .footer__redes{
@@ -148,13 +148,10 @@ form{
 
 @media screen and (max-width: 950px){
     h2{
-        font-size: 1.5em;
+        font-size: 1em;
     }
     h3{
-        font-size: 1.25em;
-    }
-    p{
-        font-size: 1em;
+        font-size: 0.75em;
     }
     #section{
         flex-direction: column;

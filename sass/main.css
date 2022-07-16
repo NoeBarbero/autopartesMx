@@ -22,7 +22,7 @@ nav a {
 }
 
 .card img {
-  height: 200px;
+  height: 300px;
 }
 .card:hover {
   background-color: #f8f86e;
@@ -106,7 +106,7 @@ form div {
 }
 #footer .footer__copy--derechos {
   grid-area: copy;
-  font-size: 0.7em;
+  font-size: 0.8em;
   margin-top: 10%;
 }
 #footer .footer__redes {
@@ -119,13 +119,10 @@ form div {
 
 @media screen and (max-width: 950px) {
   h2 {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   h3 {
-    font-size: 1.25em;
-  }
-  p {
-    font-size: 1em;
+    font-size: 0.75em;
   }
   #section {
     flex-direction: column;
