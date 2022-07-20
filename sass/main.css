@@ -5,8 +5,14 @@
   font-family: sans-serif;
 }
 
-/* mapa */
-/* extend */
+.bg-propio-page {
+  background: linear-gradient(to top, #ebeb94, #ffff00);
+}
+
+.colorTexto-propio, #footer .footer__copy {
+  color: #ffff00;
+  background-color: #000000;
+}
 
 nav a {
   text-decoration: none;
@@ -20,10 +26,10 @@ nav a {
 }
 
 .card img {
-  height: 200px;
+  height: 300px;
 }
 .card:hover {
-  background-color: #f8f86e;
+  background-color: #ebeb94;
 }
 
 .card-body p {
@@ -36,11 +42,11 @@ nav a {
 .carousel-control-prev-icon, .carousel-control-next-icon {
   height: 100px;
   width: 100px;
-  outline: solid 3px #f8f86e;
-  background: black;
+  outline: solid 3px #ebeb94;
+  background: #000000;
   background-size: 100%, 100%;
+  border: 2px solid #000000;
   border-radius: 50%;
-  border: 2px solid black;
 }
 
 h5.col.color-dark {
@@ -48,14 +54,14 @@ h5.col.color-dark {
 }
 
 h2.text-size-propio {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 h3.text-size-propio {
-  font-size: 1em;
+  font-size: 1.75em;
 }
 h3.text-size-propio:hover {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 #productos {
@@ -96,8 +102,6 @@ form div {
 }
 
 #footer .footer__copy {
-  background-color: black;
-  color: #f8f86e;
   padding: 1em;
   display: grid;
   grid-template-areas: "copy redes";
@@ -106,7 +110,7 @@ form div {
 }
 #footer .footer__copy--derechos {
   grid-area: copy;
-  font-size: 0.7em;
+  font-size: 0.8em;
   margin-top: 10%;
 }
 #footer .footer__redes {
@@ -124,24 +128,7 @@ form div {
   h3 {
     font-size: 0.75em;
   }
-  p {
-    font-size: 0.75em;
-  }
-  #header {
-    font-size: 0.5em;
-  }
   #section {
     flex-direction: column;
   }
-  h2.text-size-propio {
-    font-size: 1.5em;
-  }
-  
-  h3.text-size-propio {
-    font-size: 0.75em;
-  }
-  h3.text-size-propio:hover {
-    font-size: 1em;
-  }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

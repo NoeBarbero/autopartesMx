@@ -8,7 +8,7 @@
 $colores: (
     principal:#ffff00,
     secundario:#ebeb94,
-    terciario:black
+    terciario:#000000
 );
 
 @mixin boton ($borde, $radio){
@@ -16,6 +16,9 @@ $colores: (
     border-radius: $radio;
 }
 
+.bg-propio-page{
+    background:  linear-gradient(to top, map-get($colores , secundario), map-get($colores , principal));
+}
 .colorTexto-propio{
     color: map-get($colores , principal);
     background-color: map-get($colores , terciario);
