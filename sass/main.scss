@@ -47,7 +47,10 @@ nav{
         height: 300px;
     }
     &:hover{
-        background-color: map-get($colores , secundario);
+        @extend .bg-propio;
+    }
+    h5{
+        font-weight: bold;
     }
 }
 

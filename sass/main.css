@@ -9,7 +9,7 @@
   font-family: helvetica, ginebra, sans-serif;
 }
 
-.bg-propio {
+.bg-propio, .card:hover {
   background: linear-gradient(to top, #ffff00, #ebeb94, rgba(255, 255, 255, 0.8));
 }
 
@@ -32,8 +32,8 @@ nav a {
 .card img {
   height: 300px;
 }
-.card:hover {
-  background-color: #ebeb94;
+.card h5 {
+  font-weight: bold;
 }
 
 .card-body p {
