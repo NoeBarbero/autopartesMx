@@ -16,6 +16,11 @@ $colores: (
     border: $borde;
     border-radius: $radio;
 }
+.carousel-item{
+    img{
+        width: 50%;
+    }
+}
 .text-propio{
     font-family: helvetica, ginebra, sans-serif;
 }
@@ -119,6 +124,7 @@ h3.text-size-propio{
         max-width: 100%;
         max-height: 100%;
     }
+
     .productos__item{
         img{
             height: 200px;
@@ -158,6 +164,11 @@ form{
 }
 
 @media screen and (max-width: 950px){
+    .carousel-item{
+        img{
+            width: 100%;
+        }
+    }
     h2{
         font-size: 0.75em;
     }

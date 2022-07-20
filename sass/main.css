@@ -5,6 +5,10 @@
   font-family: ginebra, sans-serif, helvetica;
 }
 
+.carousel-item img {
+  width: 50%;
+}
+
 .text-propio {
   font-family: helvetica, ginebra, sans-serif;
 }
@@ -126,6 +130,9 @@ form div {
 }
 
 @media screen and (max-width: 950px) {
+  .carousel-item img {
+    width: 100%;
+  }
   h2 {
     font-size: 0.75em;
   }
