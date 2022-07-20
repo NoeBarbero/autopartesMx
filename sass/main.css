@@ -2,11 +2,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: ginebra, sans-serif, helvetica;
+}
+
+.text-propio {
+  font-family: helvetica, ginebra, sans-serif;
 }
 
 .bg-propio {
-  background: linear-gradient(to top, #ffff00, #ebeb94);
+  background: linear-gradient(to top, #ffff00, #ebeb94, rgba(255, 255, 255, 0.8));
 }
 
 .colorTexto-propio, #footer .footer__copy {

@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: ginebra, sans-serif, helvetica;
 }
 
 $colores: (
@@ -16,9 +16,12 @@ $colores: (
     border: $borde;
     border-radius: $radio;
 }
+.text-propio{
+    font-family: helvetica, ginebra, sans-serif;
+}
 
 .bg-propio{
-    background:  linear-gradient(to top, map-get($colores , principal), map-get($colores , secundario));
+    background:  linear-gradient(to top, map-get($colores , principal), map-get($colores , secundario), map-get($colores , cuarto));
 }
 
 .colorTexto-propio{
