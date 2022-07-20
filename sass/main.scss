@@ -8,7 +8,8 @@
 $colores: (
     principal:#ffff00,
     secundario:#ebeb94,
-    terciario:#000000
+    terciario:#000000,
+    cuarto: #ffffffcc
 );
 
 @mixin boton ($borde, $radio){
@@ -21,7 +22,7 @@ $colores: (
 }
 
 .colorTexto-propio{
-    color: map-get($colores , principal);
+    color: map-get($colores , cuarto);
     background-color: map-get($colores , terciario);
 }
 

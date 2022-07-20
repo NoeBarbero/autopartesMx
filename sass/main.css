@@ -10,7 +10,7 @@
 }
 
 .colorTexto-propio, #footer .footer__copy {
-  color: #ffff00;
+  color: rgba(255, 255, 255, 0.8);
   background-color: #000000;
 }
 
