@@ -5,8 +5,8 @@
   font-family: sans-serif;
 }
 
-.bg-propio-page {
-  background: linear-gradient(to top, #ebeb94, #ffff00);
+.bg-propio {
+  background: linear-gradient(to top, #ffff00, #ebeb94);
 }
 
 .colorTexto-propio, #footer .footer__copy {

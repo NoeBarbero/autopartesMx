@@ -16,9 +16,10 @@ $colores: (
     border-radius: $radio;
 }
 
-.bg-propio-page{
-    background:  linear-gradient(to top, map-get($colores , secundario), map-get($colores , principal));
+.bg-propio{
+    background:  linear-gradient(to top, map-get($colores , principal), map-get($colores , secundario));
 }
+
 .colorTexto-propio{
     color: map-get($colores , principal);
     background-color: map-get($colores , terciario);
