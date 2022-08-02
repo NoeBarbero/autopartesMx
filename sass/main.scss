@@ -22,11 +22,11 @@ $colores: (
     }
 }
 .text-propio{
-    font-family: helvetica, ginebra, sans-serif;
+    font-family: ginebra, sans-serif, helvetica;
 }
 
 .bg-propio{
-    background:  linear-gradient(to top, map-get($colores , principal), map-get($colores , secundario), map-get($colores , cuarto));
+    background:  linear-gradient(to bottom, map-get($colores , principal), map-get($colores , secundario), map-get($colores , cuarto));
 }
 
 .colorTexto-propio{
@@ -84,7 +84,7 @@ h5.col.color-dark{
 }
 
 h2.text-size-propio{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h3.text-size-propio{
@@ -151,8 +151,10 @@ form{
     }
     .footer__copy--derechos{
         grid-area: copy;
-        font-size: 0.80em;
-        margin-top: 10%;
+        font-size: 0.75em;
+        a{
+          text-decoration: none;
+        }        
     }
     .footer__redes{
         grid-area: redes;
@@ -162,13 +164,15 @@ form{
         }
     }
 }
-
-@media screen and (max-width: 950px){
+@media screen and (max-width: 700px){
     .carousel-item{
         img{
             width: 100%;
         }
     }
+}
+
+@media screen and (max-width: 950px){
     h2{
         font-size: 0.75em;
     }

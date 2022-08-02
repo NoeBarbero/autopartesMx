@@ -10,11 +10,11 @@
 }
 
 .text-propio {
-  font-family: helvetica, ginebra, sans-serif;
+  font-family: ginebra, sans-serif, helvetica;
 }
 
 .bg-propio, .card:hover {
-  background: linear-gradient(to top, #ffff00, #ebeb94, rgba(255, 255, 255, 0.8));
+  background: linear-gradient(to bottom, #ffff00, #ebeb94, rgba(255, 255, 255, 0.8));
 }
 
 .colorTexto-propio, #footer .footer__copy {
@@ -62,7 +62,7 @@ h5.col.color-dark {
 }
 
 h2.text-size-propio {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h3.text-size-propio {
@@ -118,8 +118,10 @@ form div {
 }
 #footer .footer__copy--derechos {
   grid-area: copy;
-  font-size: 0.8em;
-  margin-top: 10%;
+  font-size: 0.75em;
+}
+#footer .footer__copy--derechos a {
+  text-decoration: none;
 }
 #footer .footer__redes {
   grid-area: redes;
@@ -129,10 +131,12 @@ form div {
   width: 2em;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 700px) {
   .carousel-item img {
     width: 100%;
   }
+}
+@media screen and (max-width: 950px) {
   h2 {
     font-size: 0.75em;
   }
