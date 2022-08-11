@@ -26,7 +26,7 @@ $colores: (
 }
 
 .bg-propio{
-    background:  linear-gradient(to bottom, map-get($colores , principal), map-get($colores , secundario), map-get($colores , cuarto));
+    background:  linear-gradient(to center, map-get($colores , principal), map-get($colores , secundario), map-get($colores , cuarto));
 }
 
 .colorTexto-propio{
